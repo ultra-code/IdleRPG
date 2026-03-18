@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/UnityPhase1/IdleRPG -type d -iname *test* -o -type f -iname *test*)",
+      "Bash(grep -E \"\\\\.\\(md|txt|yml|yaml|json|xml\\)$\")",
+      "Bash(find /c/UnityPhase1/IdleRPG -path */Library -prune -o -path */Temp -prune -o -path */Logs -prune -o -type f -name *.cs -print)"
+    ]
+  }
+}
