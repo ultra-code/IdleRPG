@@ -64,6 +64,10 @@ sysinfo.txt
 *.unitypackage.meta
 *.app
 
+# OS
+.DS_Store
+Thumbs.db
+
 # Crashlytics generated file
 crashlytics-build.properties
 

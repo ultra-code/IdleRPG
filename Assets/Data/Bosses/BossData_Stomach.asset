@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b8b5abe72d70e46bbc2c546abed92e, type: 3}
+  m_Name: BossData_Stomach
+  m_EditorClassIdentifier: Assembly-CSharp::BossData
+  BossID: BOSS_STOMACH
+  DisplayName: Stomach Beast
+  BaseEnemy: {fileID: 11400000, guid: 6e68d8d58d59f9a4b9d0b9ba238d3934, type: 2}
+  BossHPMult: 5
+  BossATKMult: 2
+  RewardMult: 5
+  FixedGoldBonus: 500

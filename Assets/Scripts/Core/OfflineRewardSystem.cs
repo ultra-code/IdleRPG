@@ -30,6 +30,7 @@ public class OfflineRewardSystem : MonoBehaviour
         if (saveSystem == null)
             saveSystem = FindAnyObjectByType<SaveSystem>();
 
+        OfflineRewardPopupUI.EnsureExists(this);
         CheckOfflineReward();
     }
 
@@ -80,6 +81,10 @@ public class OfflineRewardSystem : MonoBehaviour
         if (!rewardReady || player == null) return;
 
         player.Gold += pendingGold;
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayOfflineReward();
+
         Debug.Log($"오프라인 보상 수령! Gold +{pendingGold:F0}");
 
         pendingGold = 0f;
@@ -94,7 +99,7 @@ public class OfflineRewardSystem : MonoBehaviour
     {
         int h = (int)(seconds / 3600f);
         int m = (int)((seconds % 3600f) / 60f);
-        if (h > 0) return $"{h}시간 {m}분";
-        return $"{m}분";
+        if (h > 0) return $"{h}h {m}m";
+        return $"{m}m";
     }
 }

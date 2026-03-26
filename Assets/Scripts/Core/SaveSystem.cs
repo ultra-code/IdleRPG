@@ -4,7 +4,8 @@ public class SaveSystem : MonoBehaviour
 {
     [Header("참조")]
     [SerializeField] private CharacterStats player;
-    [SerializeField] private AutoBattleSystem battleSystem;
+    [SerializeField] private WaveSpawnManager battleSystem;
+    [SerializeField] private UpgradeSystem upgradeSystem;
 
     [Header("자동 저장")]
     [SerializeField] private float autoSaveInterval = 30f;
@@ -20,13 +21,18 @@ public class SaveSystem : MonoBehaviour
     private const string KEY_EXP_NEXT = "Save_ExpToNextLevel";
     private const string KEY_GOLD = "Save_Gold";
     private const string KEY_STAGE = "Save_CurrentStage";
+    private const string KEY_UPG_HP = "Save_UpgradeHP";
+    private const string KEY_UPG_ATK = "Save_UpgradeATK";
+    private const string KEY_UPG_DEF = "Save_UpgradeDEF";
 
     private void Start()
     {
         if (player == null)
             player = FindAnyObjectByType<CharacterStats>();
         if (battleSystem == null)
-            battleSystem = FindAnyObjectByType<AutoBattleSystem>();
+            battleSystem = FindAnyObjectByType<WaveSpawnManager>();
+        if (upgradeSystem == null)
+            upgradeSystem = FindAnyObjectByType<UpgradeSystem>();
 
         LoadGame();
     }
@@ -67,6 +73,13 @@ public class SaveSystem : MonoBehaviour
         if (battleSystem != null)
             PlayerPrefs.SetInt(KEY_STAGE, battleSystem.CurrentStage);
 
+        if (upgradeSystem != null)
+        {
+            PlayerPrefs.SetInt(KEY_UPG_HP, upgradeSystem.hpLevel);
+            PlayerPrefs.SetInt(KEY_UPG_ATK, upgradeSystem.atkLevel);
+            PlayerPrefs.SetInt(KEY_UPG_DEF, upgradeSystem.defLevel);
+        }
+
         PlayerPrefs.Save();
         Debug.Log($"게임 저장 완료 | Lv.{player.Level} Stage {battleSystem?.CurrentStage}");
     }
@@ -84,6 +97,8 @@ public class SaveSystem : MonoBehaviour
             player.Level = PlayerPrefs.GetInt(KEY_LEVEL, 1);
             player.MaxHP = PlayerPrefs.GetFloat(KEY_MAX_HP, 100f);
             player.HP = PlayerPrefs.GetFloat(KEY_HP, player.MaxHP);
+            if (player.HP <= 0f)
+                player.HP = player.MaxHP;
             player.ATK = PlayerPrefs.GetFloat(KEY_ATK, 10f);
             player.DEF = PlayerPrefs.GetFloat(KEY_DEF, 5f);
             player.Exp = PlayerPrefs.GetFloat(KEY_EXP, 0f);
@@ -93,6 +108,14 @@ public class SaveSystem : MonoBehaviour
 
         if (battleSystem != null)
             battleSystem.CurrentStage = PlayerPrefs.GetInt(KEY_STAGE, 1);
+
+        if (upgradeSystem != null)
+        {
+            upgradeSystem.hpLevel = PlayerPrefs.GetInt(KEY_UPG_HP, 0);
+            upgradeSystem.atkLevel = PlayerPrefs.GetInt(KEY_UPG_ATK, 0);
+            upgradeSystem.defLevel = PlayerPrefs.GetInt(KEY_UPG_DEF, 0);
+            upgradeSystem.ApplyBonuses(player);
+        }
 
         Debug.Log($"게임 로드 완료 | Lv.{player?.Level} Stage {battleSystem?.CurrentStage}");
     }
@@ -109,6 +132,9 @@ public class SaveSystem : MonoBehaviour
         PlayerPrefs.DeleteKey(KEY_GOLD);
         PlayerPrefs.DeleteKey(KEY_STAGE);
         PlayerPrefs.DeleteKey("Save_QuitTime");
+        PlayerPrefs.DeleteKey(KEY_UPG_HP);
+        PlayerPrefs.DeleteKey(KEY_UPG_ATK);
+        PlayerPrefs.DeleteKey(KEY_UPG_DEF);
         PlayerPrefs.Save();
         Debug.Log("저장 데이터 삭제 완료");
     }

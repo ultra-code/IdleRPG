@@ -4,7 +4,7 @@ using TMPro;
 public class StageUI : MonoBehaviour
 {
     [Header("참조")]
-    [SerializeField] private AutoBattleSystem battleSystem;
+    [SerializeField] private WaveSpawnManager battleSystem;
 
     [Header("UI 요소")]
     [SerializeField] private TextMeshProUGUI stageText;
@@ -12,7 +12,7 @@ public class StageUI : MonoBehaviour
     private void Start()
     {
         if (battleSystem == null)
-            battleSystem = FindAnyObjectByType<AutoBattleSystem>();
+            battleSystem = FindAnyObjectByType<WaveSpawnManager>();
 
         battleSystem.OnStageChanged += HandleStageChanged;
         UpdateStageText(battleSystem.CurrentStage);

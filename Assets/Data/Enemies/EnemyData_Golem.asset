@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1518a35cac15f9f429f610bf7b94e657, type: 3}
+  m_Name: EnemyData_Golem
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  EnemyName: Twin-Head Mutant
+  Sprite: {fileID: 0}
+  AnimatorController: {fileID: 9100000, guid: 59e8e9068d2c22447b325b47a0fd3001, type: 2}
+  roleType: 0
+  BaseHP: 90
+  BaseATK: 14
+  BaseDEF: 4
+  SpriteScale: 2.5
+  MoveSpeed: 2
+  AttackRange: 1.5
+  AttackInterval: 1.3
+  HPPerLevel: 37.5
+  ATKPerLevel: 1.4
+  DEFPerLevel: 0.5
+  BaseExpReward: 25
+  BaseGoldReward: 15
+  ExpRewardPerLevel: 7.5
+  GoldRewardPerLevel: 2.4

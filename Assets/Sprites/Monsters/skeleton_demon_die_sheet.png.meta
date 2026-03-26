@@ -1,0 +1,294 @@
+fileFormatVersion: 2
+guid: 7bad12addedd33c4b939f1632b03a108
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1815888971195136830
+    second: skeleton_demon_die_sheet_0
+  - first:
+      213: 2365823742568987951
+    second: skeleton_demon_die_sheet_1
+  - first:
+      213: -4257849898361768968
+    second: skeleton_demon_die_sheet_2
+  - first:
+      213: 1148747237147000175
+    second: skeleton_demon_die_sheet_3
+  - first:
+      213: 6091869265063011411
+    second: skeleton_demon_die_sheet_4
+  - first:
+      213: -7098157086588331564
+    second: skeleton_demon_die_sheet_5
+  - first:
+      213: 3592855624262631271
+    second: skeleton_demon_die_sheet_6
+  - first:
+      213: 2489178526775546179
+    second: skeleton_demon_die_sheet_7
+  - first:
+      213: -7405936326673582500
+    second: skeleton_demon_die_sheet_8
+  - first:
+      213: 8036531696005590328
+    second: skeleton_demon_die_sheet_9
+  - first:
+      213: -7207429102802643218
+    second: skeleton_demon_die_sheet_10
+  - first:
+      213: -4571131760039901272
+    second: skeleton_demon_die_sheet_11
+  - first:
+      213: -9044301819071178599
+    second: skeleton_demon_die_sheet_12
+  - first:
+      213: -2834705050817708412
+    second: skeleton_demon_die_sheet_13
+  - first:
+      213: 5474370640174029774
+    second: skeleton_demon_die_sheet_14
+  - first:
+      213: -3729455737009202368
+    second: skeleton_demon_die_sheet_15
+  - first:
+      213: 4405204740840791393
+    second: skeleton_demon_die_sheet_16
+  - first:
+      213: -3360821279738758403
+    second: skeleton_demon_die_sheet_17
+  - first:
+      213: 1197076450425028160
+    second: skeleton_demon_die_sheet_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: skeleton_demon_die_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3bb2a7f565533910800000000000000
+      internalID: 1815888971195136830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_demon_die_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d7201c82815d020800000000000000
+      internalID: 2365823742568987951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_demon_die_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3b635931419e4c0800000000000000
+      internalID: -4257849898361768968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_demon_die_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6dbbde968b21ff00800000000000000
+      internalID: 1148747237147000175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      skeleton_demon_die_sheet_0: 1815888971195136830
+      skeleton_demon_die_sheet_1: 2365823742568987951
+      skeleton_demon_die_sheet_10: -7207429102802643218
+      skeleton_demon_die_sheet_11: -4571131760039901272
+      skeleton_demon_die_sheet_12: -9044301819071178599
+      skeleton_demon_die_sheet_13: -2834705050817708412
+      skeleton_demon_die_sheet_14: 5474370640174029774
+      skeleton_demon_die_sheet_15: -3729455737009202368
+      skeleton_demon_die_sheet_16: 4405204740840791393
+      skeleton_demon_die_sheet_17: -3360821279738758403
+      skeleton_demon_die_sheet_18: 1197076450425028160
+      skeleton_demon_die_sheet_2: -4257849898361768968
+      skeleton_demon_die_sheet_3: 1148747237147000175
+      skeleton_demon_die_sheet_4: 6091869265063011411
+      skeleton_demon_die_sheet_5: -7098157086588331564
+      skeleton_demon_die_sheet_6: 3592855624262631271
+      skeleton_demon_die_sheet_7: 2489178526775546179
+      skeleton_demon_die_sheet_8: -7405936326673582500
+      skeleton_demon_die_sheet_9: 8036531696005590328
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

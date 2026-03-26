@@ -1,0 +1,350 @@
+fileFormatVersion: 2
+guid: 4c597804077fe1c498ef8c3c38c94c33
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3628160182878126148
+    second: twin_head_die_sheet_0
+  - first:
+      213: 2211870017067187032
+    second: twin_head_die_sheet_1
+  - first:
+      213: 3677763718141477943
+    second: twin_head_die_sheet_2
+  - first:
+      213: -8266146432519170698
+    second: twin_head_die_sheet_3
+  - first:
+      213: -2264036563570900403
+    second: twin_head_die_sheet_4
+  - first:
+      213: 2735700248239040161
+    second: twin_head_die_sheet_5
+  - first:
+      213: -5969317015721497349
+    second: twin_head_die_sheet_6
+  - first:
+      213: -4235399383011080079
+    second: twin_head_die_sheet_7
+  - first:
+      213: -6438302717077961159
+    second: twin_head_die_sheet_8
+  - first:
+      213: -2308650296644528948
+    second: twin_head_die_sheet_9
+  - first:
+      213: -2544757307410621833
+    second: twin_head_die_sheet_10
+  - first:
+      213: 3915265241274450229
+    second: twin_head_die_sheet_11
+  - first:
+      213: -5522900771021923291
+    second: twin_head_die_sheet_12
+  - first:
+      213: 2320807054205459528
+    second: twin_head_die_sheet_13
+  - first:
+      213: -4989979901292264423
+    second: twin_head_die_sheet_14
+  - first:
+      213: 3415355772080827531
+    second: twin_head_die_sheet_15
+  - first:
+      213: -6309756884008702576
+    second: twin_head_die_sheet_16
+  - first:
+      213: 3890499720538136575
+    second: twin_head_die_sheet_17
+  - first:
+      213: -1599939775522074944
+    second: twin_head_die_sheet_18
+  - first:
+      213: 2563520799424155947
+    second: twin_head_die_sheet_19
+  - first:
+      213: 5080298716523246995
+    second: twin_head_die_sheet_20
+  - first:
+      213: 766318419788139628
+    second: twin_head_die_sheet_21
+  - first:
+      213: -5796192376758647659
+    second: twin_head_die_sheet_22
+  - first:
+      213: -2706998798427943395
+    second: twin_head_die_sheet_23
+  - first:
+      213: 4218390241761188433
+    second: twin_head_die_sheet_24
+  - first:
+      213: 7803383861612978160
+    second: twin_head_die_sheet_25
+  - first:
+      213: -3544111211412475356
+    second: twin_head_die_sheet_26
+  - first:
+      213: -535810276857007454
+    second: twin_head_die_sheet_27
+  - first:
+      213: 7195917429818829281
+    second: twin_head_die_sheet_28
+  - first:
+      213: -7027093040082917077
+    second: twin_head_die_sheet_29
+  - first:
+      213: 6583424337083706947
+    second: twin_head_die_sheet_30
+  - first:
+      213: 1212071891671707846
+    second: twin_head_die_sheet_31
+  - first:
+      213: 5760920099330325974
+    second: twin_head_die_sheet_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: twin_head_die_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440caa8a670d95230800000000000000
+      internalID: 3628160182878126148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twin_head_die_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b70a0cf0422be10800000000000000
+      internalID: 2211870017067187032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twin_head_die_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73484a3bd9a0a0330800000000000000
+      internalID: 3677763718141477943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twin_head_die_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67515549d9fb84d80800000000000000
+      internalID: -8266146432519170698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      twin_head_die_sheet_0: 3628160182878126148
+      twin_head_die_sheet_1: 2211870017067187032
+      twin_head_die_sheet_10: -2544757307410621833
+      twin_head_die_sheet_11: 3915265241274450229
+      twin_head_die_sheet_12: -5522900771021923291
+      twin_head_die_sheet_13: 2320807054205459528
+      twin_head_die_sheet_14: -4989979901292264423
+      twin_head_die_sheet_15: 3415355772080827531
+      twin_head_die_sheet_16: -6309756884008702576
+      twin_head_die_sheet_17: 3890499720538136575
+      twin_head_die_sheet_18: -1599939775522074944
+      twin_head_die_sheet_19: 2563520799424155947
+      twin_head_die_sheet_2: 3677763718141477943
+      twin_head_die_sheet_20: 5080298716523246995
+      twin_head_die_sheet_21: 766318419788139628
+      twin_head_die_sheet_22: -5796192376758647659
+      twin_head_die_sheet_23: -2706998798427943395
+      twin_head_die_sheet_24: 4218390241761188433
+      twin_head_die_sheet_25: 7803383861612978160
+      twin_head_die_sheet_26: -3544111211412475356
+      twin_head_die_sheet_27: -535810276857007454
+      twin_head_die_sheet_28: 7195917429818829281
+      twin_head_die_sheet_29: -7027093040082917077
+      twin_head_die_sheet_3: -8266146432519170698
+      twin_head_die_sheet_30: 6583424337083706947
+      twin_head_die_sheet_31: 1212071891671707846
+      twin_head_die_sheet_32: 5760920099330325974
+      twin_head_die_sheet_4: -2264036563570900403
+      twin_head_die_sheet_5: 2735700248239040161
+      twin_head_die_sheet_6: -5969317015721497349
+      twin_head_die_sheet_7: -4235399383011080079
+      twin_head_die_sheet_8: -6438302717077961159
+      twin_head_die_sheet_9: -2308650296644528948
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

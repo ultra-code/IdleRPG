@@ -1,0 +1,366 @@
+fileFormatVersion: 2
+guid: 7cd178fb776639540a610681e17d6405
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -363327747450773860
+    second: flesh_slime_die_sheet_0
+  - first:
+      213: -9071799505309847633
+    second: flesh_slime_die_sheet_1
+  - first:
+      213: 3052291791068853179
+    second: flesh_slime_die_sheet_2
+  - first:
+      213: 5688724006844350797
+    second: flesh_slime_die_sheet_3
+  - first:
+      213: -4836834194703391443
+    second: flesh_slime_die_sheet_4
+  - first:
+      213: -721104607209136159
+    second: flesh_slime_die_sheet_5
+  - first:
+      213: 4776218150451234031
+    second: flesh_slime_die_sheet_6
+  - first:
+      213: -2820880813732033773
+    second: flesh_slime_die_sheet_7
+  - first:
+      213: 4425596806741154599
+    second: flesh_slime_die_sheet_8
+  - first:
+      213: 4224179746009790648
+    second: flesh_slime_die_sheet_9
+  - first:
+      213: -655472921149114839
+    second: flesh_slime_die_sheet_10
+  - first:
+      213: -3210074726839957686
+    second: flesh_slime_die_sheet_11
+  - first:
+      213: -3656056397589671328
+    second: flesh_slime_die_sheet_12
+  - first:
+      213: 6684081873220571896
+    second: flesh_slime_die_sheet_13
+  - first:
+      213: -7769513934097739487
+    second: flesh_slime_die_sheet_14
+  - first:
+      213: 7918968820800547458
+    second: flesh_slime_die_sheet_15
+  - first:
+      213: -6303398050402606810
+    second: flesh_slime_die_sheet_16
+  - first:
+      213: 7356239854274134657
+    second: flesh_slime_die_sheet_17
+  - first:
+      213: 7461206176762324429
+    second: flesh_slime_die_sheet_18
+  - first:
+      213: -2284083967836421905
+    second: flesh_slime_die_sheet_19
+  - first:
+      213: 3900825174085057687
+    second: flesh_slime_die_sheet_20
+  - first:
+      213: 166817338255898511
+    second: flesh_slime_die_sheet_21
+  - first:
+      213: 6853725497408728532
+    second: flesh_slime_die_sheet_22
+  - first:
+      213: -7943800430821772818
+    second: flesh_slime_die_sheet_23
+  - first:
+      213: 1741443605282706070
+    second: flesh_slime_die_sheet_24
+  - first:
+      213: 6612300662973912897
+    second: flesh_slime_die_sheet_25
+  - first:
+      213: -4039622906986994491
+    second: flesh_slime_die_sheet_26
+  - first:
+      213: -3153785052687069227
+    second: flesh_slime_die_sheet_27
+  - first:
+      213: -6711926885137894492
+    second: flesh_slime_die_sheet_28
+  - first:
+      213: -6847913417959835674
+    second: flesh_slime_die_sheet_29
+  - first:
+      213: 1256531244810860925
+    second: flesh_slime_die_sheet_30
+  - first:
+      213: -7472673132302227050
+    second: flesh_slime_die_sheet_31
+  - first:
+      213: -7442789767003836320
+    second: flesh_slime_die_sheet_32
+  - first:
+      213: 5867320444181462723
+    second: flesh_slime_die_sheet_33
+  - first:
+      213: -3454299351509667103
+    second: flesh_slime_die_sheet_34
+  - first:
+      213: 4325426331109687999
+    second: flesh_slime_die_sheet_35
+  - first:
+      213: 3621910205858251272
+    second: flesh_slime_die_sheet_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flesh_slime_die_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e5724b65335faf0800000000000000
+      internalID: -363327747450773860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flesh_slime_die_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf21741a6e7a1280800000000000000
+      internalID: -9071799505309847633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flesh_slime_die_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3ff75563beb5a20800000000000000
+      internalID: 3052291791068853179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flesh_slime_die_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41c135185862fe40800000000000000
+      internalID: 5688724006844350797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      flesh_slime_die_sheet_0: -363327747450773860
+      flesh_slime_die_sheet_1: -9071799505309847633
+      flesh_slime_die_sheet_10: -655472921149114839
+      flesh_slime_die_sheet_11: -3210074726839957686
+      flesh_slime_die_sheet_12: -3656056397589671328
+      flesh_slime_die_sheet_13: 6684081873220571896
+      flesh_slime_die_sheet_14: -7769513934097739487
+      flesh_slime_die_sheet_15: 7918968820800547458
+      flesh_slime_die_sheet_16: -6303398050402606810
+      flesh_slime_die_sheet_17: 7356239854274134657
+      flesh_slime_die_sheet_18: 7461206176762324429
+      flesh_slime_die_sheet_19: -2284083967836421905
+      flesh_slime_die_sheet_2: 3052291791068853179
+      flesh_slime_die_sheet_20: 3900825174085057687
+      flesh_slime_die_sheet_21: 166817338255898511
+      flesh_slime_die_sheet_22: 6853725497408728532
+      flesh_slime_die_sheet_23: -7943800430821772818
+      flesh_slime_die_sheet_24: 1741443605282706070
+      flesh_slime_die_sheet_25: 6612300662973912897
+      flesh_slime_die_sheet_26: -4039622906986994491
+      flesh_slime_die_sheet_27: -3153785052687069227
+      flesh_slime_die_sheet_28: -6711926885137894492
+      flesh_slime_die_sheet_29: -6847913417959835674
+      flesh_slime_die_sheet_3: 5688724006844350797
+      flesh_slime_die_sheet_30: 1256531244810860925
+      flesh_slime_die_sheet_31: -7472673132302227050
+      flesh_slime_die_sheet_32: -7442789767003836320
+      flesh_slime_die_sheet_33: 5867320444181462723
+      flesh_slime_die_sheet_34: -3454299351509667103
+      flesh_slime_die_sheet_35: 4325426331109687999
+      flesh_slime_die_sheet_36: 3621910205858251272
+      flesh_slime_die_sheet_4: -4836834194703391443
+      flesh_slime_die_sheet_5: -721104607209136159
+      flesh_slime_die_sheet_6: 4776218150451234031
+      flesh_slime_die_sheet_7: -2820880813732033773
+      flesh_slime_die_sheet_8: 4425596806741154599
+      flesh_slime_die_sheet_9: 4224179746009790648
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

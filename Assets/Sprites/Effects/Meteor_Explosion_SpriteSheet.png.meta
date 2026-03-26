@@ -1,0 +1,514 @@
+fileFormatVersion: 2
+guid: 004ed02ad72dcd145b3282a95f682e57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7551524671445408010
+    second: Meteor_Explosion_SpriteSheet_0
+  - first:
+      213: 3526266557653364433
+    second: Meteor_Explosion_SpriteSheet_1
+  - first:
+      213: -71475475913909394
+    second: Meteor_Explosion_SpriteSheet_2
+  - first:
+      213: 2915348743426541981
+    second: Meteor_Explosion_SpriteSheet_3
+  - first:
+      213: 1947015688744065410
+    second: Meteor_Explosion_SpriteSheet_4
+  - first:
+      213: 7624259261599982427
+    second: Meteor_Explosion_SpriteSheet_5
+  - first:
+      213: 3020635733970655872
+    second: Meteor_Explosion_SpriteSheet_6
+  - first:
+      213: 9182832831383895937
+    second: Meteor_Explosion_SpriteSheet_7
+  - first:
+      213: 1281567698288413933
+    second: Meteor_Explosion_SpriteSheet_8
+  - first:
+      213: -8709831965768619533
+    second: Meteor_Explosion_SpriteSheet_9
+  - first:
+      213: 607603546741664147
+    second: Meteor_Explosion_SpriteSheet_10
+  - first:
+      213: -4931241785139248063
+    second: Meteor_Explosion_SpriteSheet_11
+  - first:
+      213: -9029027087317009126
+    second: Meteor_Explosion_SpriteSheet_12
+  - first:
+      213: 6248552979445286884
+    second: Meteor_Explosion_SpriteSheet_13
+  - first:
+      213: 2642900437006543618
+    second: Meteor_Explosion_SpriteSheet_14
+  - first:
+      213: 3963628248821858882
+    second: Meteor_Explosion_SpriteSheet_15
+  - first:
+      213: 2428846967384602501
+    second: Meteor_Explosion_SpriteSheet_16
+  - first:
+      213: -1415904606245412198
+    second: Meteor_Explosion_SpriteSheet_17
+  - first:
+      213: -2653120617412943718
+    second: Meteor_Explosion_SpriteSheet_18
+  - first:
+      213: -3558181244425469650
+    second: Meteor_Explosion_SpriteSheet_19
+  - first:
+      213: 4746221639247700936
+    second: Meteor_Explosion_SpriteSheet_20
+  - first:
+      213: -2357163871234506407
+    second: Meteor_Explosion_SpriteSheet_21
+  - first:
+      213: -1102799137788251629
+    second: Meteor_Explosion_SpriteSheet_22
+  - first:
+      213: 8010440185582268823
+    second: Meteor_Explosion_SpriteSheet_23
+  - first:
+      213: 3492557152571519474
+    second: Meteor_Explosion_SpriteSheet_24
+  - first:
+      213: 5246599444609380401
+    second: Meteor_Explosion_SpriteSheet_25
+  - first:
+      213: -6813687470941261432
+    second: Meteor_Explosion_SpriteSheet_26
+  - first:
+      213: 7918804217670755623
+    second: Meteor_Explosion_SpriteSheet_27
+  - first:
+      213: -7643971716346007189
+    second: Meteor_Explosion_SpriteSheet_28
+  - first:
+      213: -3216813822151934498
+    second: Meteor_Explosion_SpriteSheet_29
+  - first:
+      213: 9035882118542095343
+    second: Meteor_Explosion_SpriteSheet_30
+  - first:
+      213: 4968821677112515859
+    second: Meteor_Explosion_SpriteSheet_31
+  - first:
+      213: 1257226699630634299
+    second: Meteor_Explosion_SpriteSheet_32
+  - first:
+      213: -1977246523358213106
+    second: Meteor_Explosion_SpriteSheet_33
+  - first:
+      213: 2742926872887367240
+    second: Meteor_Explosion_SpriteSheet_34
+  - first:
+      213: 6561704461037322825
+    second: Meteor_Explosion_SpriteSheet_35
+  - first:
+      213: -435733760339616585
+    second: Meteor_Explosion_SpriteSheet_36
+  - first:
+      213: -4518136251001811044
+    second: Meteor_Explosion_SpriteSheet_37
+  - first:
+      213: -5194628724498922744
+    second: Meteor_Explosion_SpriteSheet_38
+  - first:
+      213: 734710625512490945
+    second: Meteor_Explosion_SpriteSheet_39
+  - first:
+      213: 2474109169694110171
+    second: Meteor_Explosion_SpriteSheet_40
+  - first:
+      213: -7343401636951878209
+    second: Meteor_Explosion_SpriteSheet_41
+  - first:
+      213: -9009297717491517046
+    second: Meteor_Explosion_SpriteSheet_42
+  - first:
+      213: -5653675890013482948
+    second: Meteor_Explosion_SpriteSheet_43
+  - first:
+      213: 8411848943302916877
+    second: Meteor_Explosion_SpriteSheet_44
+  - first:
+      213: -6436689363552188560
+    second: Meteor_Explosion_SpriteSheet_45
+  - first:
+      213: -5117516979994550229
+    second: Meteor_Explosion_SpriteSheet_46
+  - first:
+      213: 1185646555942188389
+    second: Meteor_Explosion_SpriteSheet_47
+  - first:
+      213: 3211243147038384752
+    second: Meteor_Explosion_SpriteSheet_48
+  - first:
+      213: -4942859279577748581
+    second: Meteor_Explosion_SpriteSheet_49
+  - first:
+      213: -2156573422706562818
+    second: Meteor_Explosion_SpriteSheet_50
+  - first:
+      213: -1979320917652335354
+    second: Meteor_Explosion_SpriteSheet_51
+  - first:
+      213: -7415918781634578383
+    second: Meteor_Explosion_SpriteSheet_52
+  - first:
+      213: 4249349862043691349
+    second: Meteor_Explosion_SpriteSheet_53
+  - first:
+      213: -8866383415982298294
+    second: Meteor_Explosion_SpriteSheet_54
+  - first:
+      213: -5844042845147279663
+    second: Meteor_Explosion_SpriteSheet_55
+  - first:
+      213: 2031269131223189206
+    second: Meteor_Explosion_SpriteSheet_56
+  - first:
+      213: -5466514119409708430
+    second: Meteor_Explosion_SpriteSheet_57
+  - first:
+      213: -6478241346790253151
+    second: Meteor_Explosion_SpriteSheet_58
+  - first:
+      213: 9085715817080719720
+    second: Meteor_Explosion_SpriteSheet_59
+  - first:
+      213: 327333362134461716
+    second: Meteor_Explosion_SpriteSheet_60
+  - first:
+      213: 848421735897774993
+    second: Meteor_Explosion_SpriteSheet_61
+  - first:
+      213: 7907427454179928208
+    second: Meteor_Explosion_SpriteSheet_62
+  - first:
+      213: -4354921768928492445
+    second: Meteor_Explosion_SpriteSheet_63
+  - first:
+      213: -908149654897810886
+    second: Meteor_Explosion_SpriteSheet_64
+  - first:
+      213: -9168169487904698305
+    second: Meteor_Explosion_SpriteSheet_65
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Meteor_Explosion_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a091a12dda76cc860800000000000000
+      internalID: 7551524671445408010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor_Explosion_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dea44050c0dfe030800000000000000
+      internalID: 3526266557653364433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor_Explosion_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6bdfffee61120ff0800000000000000
+      internalID: -71475475913909394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor_Explosion_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9902586c36657820800000000000000
+      internalID: 2915348743426541981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor_Explosion_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289d3b30470350b10800000000000000
+      internalID: 1947015688744065410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor_Explosion_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b532623476fcec960800000000000000
+      internalID: 7624259261599982427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor_Explosion_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a1c2f22347be920800000000000000
+      internalID: 3020635733970655872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteor_Explosion_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f7e62bec9ff6f70800000000000000
+      internalID: 9182832831383895937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c642c89f377297b44ab4d17201c5f404
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":512.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Meteor_Explosion_SpriteSheet_0: 7551524671445408010
+      Meteor_Explosion_SpriteSheet_1: 3526266557653364433
+      Meteor_Explosion_SpriteSheet_2: -71475475913909394
+      Meteor_Explosion_SpriteSheet_3: 2915348743426541981
+      Meteor_Explosion_SpriteSheet_4: 1947015688744065410
+      Meteor_Explosion_SpriteSheet_5: 7624259261599982427
+      Meteor_Explosion_SpriteSheet_6: 3020635733970655872
+      Meteor_Explosion_SpriteSheet_7: 9182832831383895937
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

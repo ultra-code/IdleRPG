@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39594a8028709af43bb148e68a41a524, type: 3}
+  m_Name: EnhanceCostData
+  m_EditorClassIdentifier: Assembly-CSharp::EnhanceCostData
+  Rows:
+  - EnhanceLevel: 0
+    CostGold: 50
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 1
+    CostGold: 65
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 2
+    CostGold: 84
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 3
+    CostGold: 109
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 4
+    CostGold: 142
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 5
+    CostGold: 185
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 6
+    CostGold: 241
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 7
+    CostGold: 313
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 8
+    CostGold: 407
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 9
+    CostGold: 530
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 10
+    CostGold: 689
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 11
+    CostGold: 896
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 12
+    CostGold: 1164
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 13
+    CostGold: 1514
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 14
+    CostGold: 1968
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 15
+    CostGold: 2559
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 16
+    CostGold: 3327
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 17
+    CostGold: 4325
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 18
+    CostGold: 5622
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 19
+    CostGold: 7309
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 20
+    CostGold: 9502
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 21
+    CostGold: 12353
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 22
+    CostGold: 16059
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 23
+    CostGold: 20876
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 24
+    CostGold: 27140
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5
+  - EnhanceLevel: 25
+    CostGold: 35282
+    HPBonus: 10
+    ATKBonus: 3
+    DEFBonus: 1.5

@@ -3,7 +3,29 @@
     "allow": [
       "Bash(find /c/UnityPhase1/IdleRPG -type d -iname *test* -o -type f -iname *test*)",
       "Bash(grep -E \"\\\\.\\(md|txt|yml|yaml|json|xml\\)$\")",
-      "Bash(find /c/UnityPhase1/IdleRPG -path */Library -prune -o -path */Temp -prune -o -path */Logs -prune -o -type f -name *.cs -print)"
+      "Bash(find /c/UnityPhase1/IdleRPG -path */Library -prune -o -path */Temp -prune -o -path */Logs -prune -o -type f -name *.cs -print)",
+      "Bash(mkdir -p /c/UnityPhase1/IdleRPG/Assets/Sprites/Characters/hero_walk_frames)",
+      "Bash(cp /tmp/heromage_extract/animations/walking/east/frame_*.png /c/UnityPhase1/IdleRPG/Assets/Sprites/Characters/hero_walk_frames/)",
+      "Bash(python:*)",
+      "Bash(export PIXELLAB_SECRET=\"a18a5b1b-0f19-49ed-b1db-48ee94837cf9\")",
+      "Bash(ls /c/UnityPhase1/IdleRPG/Assets/Sprites/Monsters/eyeball_stalker_*)",
+      "Bash(ls /c/UnityPhase1/IdleRPG/Assets/Sprites/Characters/slime_flesh_*)",
+      "Bash(python3 -c \":*)",
+      "Bash(unity-cli status:*)",
+      "Bash(unity-cli exec:*)",
+      "Bash(set +H)",
+      "Bash(unity-cli menu:*)",
+      "Bash(echo $PIXELLAB_SECRET)",
+      "Bash(printenv)",
+      "Bash(cmd //c \"echo %PIXELLAB_SECRET%\")",
+      "Read(//c/Users/mango/**)",
+      "Read(//c/UnityPhase1/**)",
+      "Bash(powershell.exe -Command \"[Environment]::GetEnvironmentVariable\\(''''PIXELLAB_SECRET'''',''''User''''\\)\")",
+      "Bash(powershell.exe -Command \"[Environment]::GetEnvironmentVariable\\(''''PIXELLAB_SECRET'''',''''Machine''''\\)\")",
+      "Bash(powershell.exe -Command \"Get-ChildItem Env: | Where-Object { \\\\$_.Name -like '*PIXEL*' } | Format-Table\" 2>&1)",
+      "Bash(PIXELLAB_SECRET=\"a18a5b1b-0f19-49ed-b1db-48ee94837cf9\" python -c \"from pixellab import Client; c=Client\\(secret=''a18a5b1b-0f19-49ed-b1db-48ee94837cf9''\\); b=c.get_balance\\(\\); print\\(b\\)\")",
+      "Bash(unity-cli exec ':*)",
+      "Bash(unity-cli logs:*)"
     ]
   }
 }

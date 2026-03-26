@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1518a35cac15f9f429f610bf7b94e657, type: 3}
+  m_Name: EnemyData_Bat
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  EnemyName: Eye Stalker
+  Sprite: {fileID: 0}
+  AnimatorController: {fileID: 9100000, guid: 933542e40eaba624e8dd871f67128038, type: 2}
+  roleType: 0
+  BaseHP: 40
+  BaseATK: 12
+  BaseDEF: 1
+  SpriteScale: 1.1
+  MoveSpeed: 3
+  AttackRange: 1.5
+  AttackInterval: 2
+  HPPerLevel: 9
+  ATKPerLevel: 1.8
+  DEFPerLevel: 0.5
+  BaseExpReward: 12
+  BaseGoldReward: 6
+  ExpRewardPerLevel: 5
+  GoldRewardPerLevel: 1.5
