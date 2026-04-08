@@ -219,10 +219,10 @@ public static class SpriteAnimationSetupUtility
         }
 
         AssignEnemyController("Assets/Data/Enemies/EnemyData_Slime.asset", controllers, "flesh_slime");
-        AssignEnemyController("Assets/Data/Enemies/EnemyData_Bat.asset", controllers, "eye_stalker");
-        AssignEnemyController("Assets/Data/Enemies/EnemyData_SkeletonWarrior.asset", controllers, "skeleton_demon");
-        AssignEnemyController("Assets/Data/Enemies/EnemyData_Goblin.asset", controllers, "blood_cells");
-        AssignEnemyController("Assets/Data/Enemies/EnemyData_Golem.asset", controllers, "twin_head");
+        AssignEnemyController("Assets/Data/Enemies/EnemyData_EyeStalker.asset", controllers, "eye_stalker");
+        AssignEnemyController("Assets/Data/Enemies/EnemyData_SkeletonDemon.asset", controllers, "skeleton_demon");
+        AssignEnemyController("Assets/Data/Enemies/EnemyData_BloodCells.asset", controllers, "blood_cells");
+        AssignEnemyController("Assets/Data/Enemies/EnemyData_TwinHeadMutant.asset", controllers, "twin_head");
     }
 
     private static void AssignEnemyController(string assetPath, Dictionary<string, AnimatorController> controllers, string key)

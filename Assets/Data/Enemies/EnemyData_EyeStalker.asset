@@ -15,7 +15,7 @@ MonoBehaviour:
   EnemyName: Eye Stalker
   Sprite: {fileID: 0}
   AnimatorController: {fileID: 9100000, guid: 933542e40eaba624e8dd871f67128038, type: 2}
-  roleType: 0
+  roleType: 1
   BaseHP: 40
   BaseATK: 12
   BaseDEF: 1

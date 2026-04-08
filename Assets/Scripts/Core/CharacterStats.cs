@@ -38,6 +38,13 @@ public class CharacterStats : MonoBehaviour
     private SkillSystem skillSystemCache;
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
+    private bool isInvincible;
+
+    public bool IsInvincible
+    {
+        get => isInvincible;
+        set => isInvincible = value;
+    }
 
     private void Awake()
     {
@@ -72,7 +79,24 @@ public class CharacterStats : MonoBehaviour
         if (IsDead) return;
         if (waveManager == null)
             waveManager = FindAnyObjectByType<WaveSpawnManager>();
-        if (waveManager == null || waveManager.ActiveEnemies.Count == 0) return;
+        if (waveManager == null) return;
+
+        // No enemies alive → return to map center
+        if (waveManager.ActiveEnemies.Count == 0)
+        {
+            float distToCenter = Vector2.Distance(rb.position, Vector2.zero);
+            if (distToCenter > 0.5f)
+            {
+                Vector2 dir = (Vector2.zero - rb.position).normalized;
+                Vector2 targetPos = rb.position + dir * moveSpeed * Time.fixedDeltaTime;
+                rb.MovePosition(MapBounds.ClampPlayer(targetPos));
+
+                float scaleX = Mathf.Abs(transform.localScale.x);
+                if (dir.x < 0) scaleX = -scaleX;
+                transform.localScale = new Vector3(scaleX, transform.localScale.y, transform.localScale.z);
+            }
+            return;
+        }
 
         Enemy closest = null;
         float closestDist = float.MaxValue;
@@ -197,6 +221,9 @@ public class CharacterStats : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
+        if (isInvincible)
+            return;
+
         float actualDamage = Mathf.Max(damage - DEF, 1f);
         HP = Mathf.Max(HP - actualDamage, 0f);
 

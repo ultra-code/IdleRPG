@@ -14,10 +14,10 @@ public class DataAssetGenerator
         EnsureFolder("Assets/Data/Enemies");
 
         CreateEnemy("EnemyData_Slime",           "슬라임",     1.0f, 1.0f, 1, 1.5f, 10f, 5f);
-        CreateEnemy("EnemyData_Goblin",           "고블린",     0.8f, 1.3f, 2, 1.8f, 12f, 6f);
-        CreateEnemy("EnemyData_Golem",            "골렘",       2.5f, 0.7f, 3, 1.3f, 15f, 8f);
-        CreateEnemy("EnemyData_Bat",              "박쥐",       0.6f, 0.9f, 1, 2.0f, 10f, 5f);
-        CreateEnemy("EnemyData_SkeletonWarrior",  "해골전사",   1.8f, 1.5f, 3, 1.5f, 25f, 15f);
+        CreateEnemy("EnemyData_BloodCells",       "고블린",     0.8f, 1.3f, 2, 1.8f, 12f, 6f);
+        CreateEnemy("EnemyData_TwinHeadMutant",   "골렘",       2.5f, 0.7f, 3, 1.3f, 15f, 8f);
+        CreateEnemy("EnemyData_EyeStalker",       "박쥐",       0.6f, 0.9f, 1, 2.0f, 10f, 5f);
+        CreateEnemy("EnemyData_SkeletonDemon",    "해골전사",   1.8f, 1.5f, 3, 1.5f, 25f, 15f);
 
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
@@ -94,8 +94,8 @@ public class DataAssetGenerator
         EnsureFolder("Assets/Data/Stages");
 
         var slime  = Load<EnemyData>("Assets/Data/Enemies/EnemyData_Slime.asset");
-        var goblin = Load<EnemyData>("Assets/Data/Enemies/EnemyData_Goblin.asset");
-        var bat    = Load<EnemyData>("Assets/Data/Enemies/EnemyData_Bat.asset");
+        var goblin = Load<EnemyData>("Assets/Data/Enemies/EnemyData_BloodCells.asset");
+        var bat    = Load<EnemyData>("Assets/Data/Enemies/EnemyData_EyeStalker.asset");
 
         if (slime == null || goblin == null || bat == null)
         {
@@ -130,9 +130,9 @@ public class DataAssetGenerator
     [MenuItem("IdleRPG/Generate/Step4 - StageData 11-20")]
     public static void GenerateStage11_20()
     {
-        var goblin = Load<EnemyData>("Assets/Data/Enemies/EnemyData_Goblin.asset");
-        var golem  = Load<EnemyData>("Assets/Data/Enemies/EnemyData_Golem.asset");
-        var skel   = Load<EnemyData>("Assets/Data/Enemies/EnemyData_SkeletonWarrior.asset");
+        var goblin = Load<EnemyData>("Assets/Data/Enemies/EnemyData_BloodCells.asset");
+        var golem  = Load<EnemyData>("Assets/Data/Enemies/EnemyData_TwinHeadMutant.asset");
+        var skel   = Load<EnemyData>("Assets/Data/Enemies/EnemyData_SkeletonDemon.asset");
 
         if (goblin == null || golem == null || skel == null)
         {
@@ -168,10 +168,10 @@ public class DataAssetGenerator
     public static void GenerateStage21_30()
     {
         var slime  = Load<EnemyData>("Assets/Data/Enemies/EnemyData_Slime.asset");
-        var goblin = Load<EnemyData>("Assets/Data/Enemies/EnemyData_Goblin.asset");
-        var golem  = Load<EnemyData>("Assets/Data/Enemies/EnemyData_Golem.asset");
-        var bat    = Load<EnemyData>("Assets/Data/Enemies/EnemyData_Bat.asset");
-        var skel   = Load<EnemyData>("Assets/Data/Enemies/EnemyData_SkeletonWarrior.asset");
+        var goblin = Load<EnemyData>("Assets/Data/Enemies/EnemyData_BloodCells.asset");
+        var golem  = Load<EnemyData>("Assets/Data/Enemies/EnemyData_TwinHeadMutant.asset");
+        var bat    = Load<EnemyData>("Assets/Data/Enemies/EnemyData_EyeStalker.asset");
+        var skel   = Load<EnemyData>("Assets/Data/Enemies/EnemyData_SkeletonDemon.asset");
 
         if (slime == null || goblin == null || golem == null || bat == null || skel == null)
         {

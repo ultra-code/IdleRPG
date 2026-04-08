@@ -16,6 +16,7 @@ public class DashSkill : MonoBehaviour
     [SerializeField] private float dashSpeed = 35f;
     [SerializeField] private float damageMultiplier = 2.0f;
     [SerializeField] private float cameraZoomScale = 0.95f;
+    [SerializeField] private float maxDashDuration = 5f;
 
     private bool isDashing;
     public bool IsDashing => isDashing;
@@ -45,49 +46,96 @@ public class DashSkill : MonoBehaviour
     private IEnumerator DashRoutine(CharacterStats player, List<Enemy> targets, float damage)
     {
         isDashing = true;
+        player.IsInvincible = true;
 
-        if (AudioManager.Instance != null)
-        {
-            AudioManager.Instance.PlayBerserkerDash();
-            AudioManager.Instance.PlayBuffActivate();
-        }
-
-        Vector3 originalPos = player.transform.position;
-        SpriteRenderer playerSR = player.GetComponent<SpriteRenderer>();
-
-        // Camera zoom in
+        float dashStartTime = Time.time;
         Camera cam = Camera.main;
         float originalOrthoSize = cam != null ? cam.orthographicSize : 5f;
-        if (cam != null)
-            cam.orthographicSize = originalOrthoSize * cameraZoomScale;
 
-        // Afterimage spawning timer
-        float afterImageTimer = 0f;
-
-        // Dash through each target
-        foreach (var target in targets)
+        try
         {
-            if (target == null || target.IsDead) continue;
-
-            while (target != null && !target.IsDead)
+            if (AudioManager.Instance != null)
             {
-                Vector3 targetPos = target.transform.position;
-                float step = dashSpeed * Time.deltaTime;
-                player.transform.position = MapBounds.ClampPlayer(
-                    Vector3.MoveTowards(player.transform.position, targetPos, step));
+                AudioManager.Instance.PlayBerserkerDash();
+                AudioManager.Instance.PlayBuffActivate();
+            }
 
-                // Flip sprite
-                Vector3 dir = targetPos - player.transform.position;
-                if (dir.x != 0f)
+            Vector3 originalPos = player.transform.position;
+            SpriteRenderer playerSR = player.GetComponent<SpriteRenderer>();
+
+            // Camera zoom in
+            if (cam != null)
+                cam.orthographicSize = originalOrthoSize * cameraZoomScale;
+
+            // Afterimage spawning timer
+            float afterImageTimer = 0f;
+
+            // Dash through each target
+            foreach (var target in targets)
+            {
+                if (Time.time - dashStartTime >= maxDashDuration)
                 {
-                    float scaleX = Mathf.Abs(player.transform.localScale.x);
-                    player.transform.localScale = new Vector3(
-                        dir.x < 0 ? -scaleX : scaleX,
-                        player.transform.localScale.y,
-                        player.transform.localScale.z);
+                    Debug.LogWarning("[Berserker Dash] Timed out during target pass-through");
+                    break;
+                }
+                if (target == null || target.IsDead) continue;
+
+                while (target != null && !target.IsDead)
+                {
+                    if (Time.time - dashStartTime >= maxDashDuration)
+                    {
+                        Debug.LogWarning("[Berserker Dash] Timed out while moving to target");
+                        break;
+                    }
+
+                    Vector3 targetPos = target.transform.position;
+                    float step = dashSpeed * Time.deltaTime;
+                    player.transform.position = MapBounds.ClampPlayer(
+                        Vector3.MoveTowards(player.transform.position, targetPos, step));
+
+                    // Flip sprite
+                    Vector3 dir = targetPos - player.transform.position;
+                    if (dir.x != 0f)
+                    {
+                        float scaleX = Mathf.Abs(player.transform.localScale.x);
+                        player.transform.localScale = new Vector3(
+                            dir.x < 0 ? -scaleX : scaleX,
+                            player.transform.localScale.y,
+                            player.transform.localScale.z);
+                    }
+
+                    // Spawn afterimage
+                    afterImageTimer += Time.deltaTime;
+                    if (afterImageTimer >= afterImageInterval && playerSR != null)
+                    {
+                        afterImageTimer = 0f;
+                        SpawnAfterImage(player.transform, playerSR);
+                    }
+
+                    if (Vector3.Distance(player.transform.position, targetPos) < 0.15f) break;
+                    yield return null;
                 }
 
-                // Spawn afterimage
+                // Hit on pass-through
+                if (target != null && !target.IsDead)
+                {
+                    target.TakeDamage(damage, DamagePopupType.Skill);
+                    CombatFeedbackSystem.HitStop(0.02f, 0.04f);
+                }
+            }
+
+            // Return to original position
+            while (Vector3.Distance(player.transform.position, originalPos) > 0.2f)
+            {
+                if (Time.time - dashStartTime >= maxDashDuration)
+                {
+                    Debug.LogWarning("[Berserker Dash] Timed out while returning to origin");
+                    break;
+                }
+
+                player.transform.position = MapBounds.ClampPlayer(
+                    Vector3.MoveTowards(player.transform.position, originalPos, dashSpeed * 0.8f * Time.deltaTime));
+
                 afterImageTimer += Time.deltaTime;
                 if (afterImageTimer >= afterImageInterval && playerSR != null)
                 {
@@ -95,42 +143,20 @@ public class DashSkill : MonoBehaviour
                     SpawnAfterImage(player.transform, playerSR);
                 }
 
-                if (Vector3.Distance(player.transform.position, targetPos) < 0.15f) break;
                 yield return null;
             }
 
-            // Hit on pass-through
-            if (target != null && !target.IsDead)
-            {
-                target.TakeDamage(damage, DamagePopupType.Skill);
-                CombatFeedbackSystem.HitStop(0.02f, 0.04f);
-            }
-        }
+            player.transform.position = MapBounds.ClampPlayer(originalPos);
 
-        // Return to original position
-        while (Vector3.Distance(player.transform.position, originalPos) > 0.2f)
+            Debug.Log($"[Berserker Dash] Complete! {targets.Count} enemies hit");
+        }
+        finally
         {
-            player.transform.position = MapBounds.ClampPlayer(
-                Vector3.MoveTowards(player.transform.position, originalPos, dashSpeed * 0.8f * Time.deltaTime));
-
-            afterImageTimer += Time.deltaTime;
-            if (afterImageTimer >= afterImageInterval && playerSR != null)
-            {
-                afterImageTimer = 0f;
-                SpawnAfterImage(player.transform, playerSR);
-            }
-
-            yield return null;
+            player.IsInvincible = false;
+            if (cam != null)
+                cam.orthographicSize = originalOrthoSize;
+            isDashing = false;
         }
-
-        player.transform.position = MapBounds.ClampPlayer(originalPos);
-
-        // Restore camera
-        if (cam != null)
-            cam.orthographicSize = originalOrthoSize;
-
-        isDashing = false;
-        Debug.Log($"[Berserker Dash] Complete! {targets.Count} enemies hit");
     }
 
     private void SpawnAfterImage(Transform source, SpriteRenderer sourceSR)

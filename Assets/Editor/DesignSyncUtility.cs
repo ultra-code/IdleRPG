@@ -61,10 +61,10 @@ public static class DesignSyncUtility
     private static void SyncStageAssets()
     {
         EnemyData slime = Load<EnemyData>("Assets/Data/Enemies/EnemyData_Slime.asset");
-        EnemyData stalker = Load<EnemyData>("Assets/Data/Enemies/EnemyData_Bat.asset");
-        EnemyData skeleton = Load<EnemyData>("Assets/Data/Enemies/EnemyData_SkeletonWarrior.asset");
-        EnemyData hemocyte = Load<EnemyData>("Assets/Data/Enemies/EnemyData_Goblin.asset");
-        EnemyData twinhead = Load<EnemyData>("Assets/Data/Enemies/EnemyData_Golem.asset");
+        EnemyData stalker = Load<EnemyData>("Assets/Data/Enemies/EnemyData_EyeStalker.asset");
+        EnemyData skeleton = Load<EnemyData>("Assets/Data/Enemies/EnemyData_SkeletonDemon.asset");
+        EnemyData hemocyte = Load<EnemyData>("Assets/Data/Enemies/EnemyData_BloodCells.asset");
+        EnemyData twinhead = Load<EnemyData>("Assets/Data/Enemies/EnemyData_TwinHeadMutant.asset");
 
         for (int stage = 1; stage <= 30; stage++)
         {

@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1518a35cac15f9f429f610bf7b94e657, type: 3}
-  m_Name: EnemyData_SkeletonWarrior
+  m_Name: EnemyData_Goblin
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
-  EnemyName: Skeleton Demon
+  EnemyName: Blood Cells
   Sprite: {fileID: 0}
-  AnimatorController: {fileID: 9100000, guid: baa0a18c1544f514ab0cff464de15b91, type: 2}
-  roleType: 0
-  BaseHP: 125
-  BaseATK: 6
-  BaseDEF: 5
-  SpriteScale: 2.2
-  MoveSpeed: 1.5
+  AnimatorController: {fileID: 9100000, guid: c4d65efb3579e744583375fe48f666db, type: 2}
+  roleType: 3
+  BaseHP: 30
+  BaseATK: 7
+  BaseDEF: 0
+  SpriteScale: 1
+  MoveSpeed: 2.5
   AttackRange: 1.5
-  AttackInterval: 1.5
-  HPPerLevel: 27
-  ATKPerLevel: 3
+  AttackInterval: 1.8
+  HPPerLevel: 12
+  ATKPerLevel: 2.6
   DEFPerLevel: 0.5
-  BaseExpReward: 15
-  BaseGoldReward: 8
-  ExpRewardPerLevel: 12.5
-  GoldRewardPerLevel: 4.5
+  BaseExpReward: 10
+  BaseGoldReward: 5
+  ExpRewardPerLevel: 6
+  GoldRewardPerLevel: 1.8000001

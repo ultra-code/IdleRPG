@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1518a35cac15f9f429f610bf7b94e657, type: 3}
-  m_Name: EnemyData_Goblin
+  m_Name: EnemyData_Golem
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
-  EnemyName: Blood Cells
+  EnemyName: Twin-Head Mutant
   Sprite: {fileID: 0}
-  AnimatorController: {fileID: 9100000, guid: c4d65efb3579e744583375fe48f666db, type: 2}
-  roleType: 0
-  BaseHP: 30
-  BaseATK: 7
-  BaseDEF: 0
-  SpriteScale: 1
-  MoveSpeed: 2.5
+  AnimatorController: {fileID: 9100000, guid: 59e8e9068d2c22447b325b47a0fd3001, type: 2}
+  roleType: 4
+  BaseHP: 90
+  BaseATK: 14
+  BaseDEF: 4
+  SpriteScale: 2.5
+  MoveSpeed: 2
   AttackRange: 1.5
-  AttackInterval: 1.8
-  HPPerLevel: 12
-  ATKPerLevel: 2.6
+  AttackInterval: 1.3
+  HPPerLevel: 37.5
+  ATKPerLevel: 1.4
   DEFPerLevel: 0.5
-  BaseExpReward: 10
-  BaseGoldReward: 5
-  ExpRewardPerLevel: 6
-  GoldRewardPerLevel: 1.8000001
+  BaseExpReward: 25
+  BaseGoldReward: 15
+  ExpRewardPerLevel: 7.5
+  GoldRewardPerLevel: 2.4

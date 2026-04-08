@@ -303,7 +303,7 @@ public class WaveSpawnManager : MonoBehaviour
 
     private void SpawnBoss()
     {
-        Vector3 spawnPos = GetRandomSpawnPosition();
+        Vector3 spawnPos = Vector3.zero; // 보스는 맵 중앙 스폰
 
         GameObject prefab = bossPrefab != null ? bossPrefab : enemyPrefab;
         GameObject obj = Instantiate(prefab, spawnPos, Quaternion.identity);
